@@ -1,0 +1,40 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Home</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <h2>Welcome to Ionic!</h2>
+  <p>
+    This starter project comes with simple tabs-based layout for apps
+    that are going to primarily use a Tabbed UI.
+  </p>
+  <p>
+    Take a look at the <code>src/pages/</code> directory to add or change tabs,
+    update any existing page or create new pages.
+  </p>
+  <a href="facetime:mail@mail.com">Test Facetime</a>
+  <a href="tel:0000-123456">Test call</a>
+  <button ion-button (click)="navigate()">(click)</button>
+  <button ion-button [navPush]="page">Calendar Page</button>
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+        <ion-icon name="star-outline"></ion-icon>
+      </ion-col>
+      <ion-col>
+        <ion-icon name="star-outline"></ion-icon>
+      </ion-col>
+      <ion-col>
+        <ion-icon name="star-outline"></ion-icon>
+      </ion-col>
+      <ion-col>
+        <ion-icon name="star-outline"></ion-icon>
+      </ion-col>
+      <ion-col>
+        <ion-icon name="star-outline"></ion-icon>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>
